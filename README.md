@@ -10,7 +10,7 @@ Automated multiclass brain tumor segmentation from 3D MRI scans using three deep
 | Nabil Hasan | nabilh@mun.ca |
 | Md Abdul Hadi Chowdhury | mabdulc@mun.ca |
 
-**Group 10** — Memorial University of Newfoundland
+**Computer Vision** — Memorial University of Newfoundland
 
 ---
 
@@ -166,20 +166,6 @@ pandas
 tqdm
 tensorboard
 opencv-python==4.13
-```
-
-### Installation
-
-```bash
-# Create conda environment
-conda create -n bts python=3.12
-conda activate bts
-
-# Install PyTorch (adjust CUDA version as needed)
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
-
-# Install remaining dependencies
-pip install monai nibabel numpy matplotlib scikit-learn scikit-image scipy plotly pandas tqdm tensorboard opencv-python
 ```
 
 ## Usage
